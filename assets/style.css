@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&display=swap');
+
+
+* {
+    font-family: 'Bilbo', cursive;
+}
+
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/3872532.jpg);
+    background-size: cover;
+}
 .hero {
     height: 200px;
     width: 100%;
@@ -5,4 +17,109 @@
     background-image: url(https://wallpaperaccess.com/full/815670.jpg);
     background-size: cover;
     background-position: center;
+    border-bottom: 10px ridge grey;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem auto;
+    
+}
+
+.title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-title {
+    font-size: 8rem;
+    color: #fff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    margin-top: -7rem;
+    background-image: url(https://wallpaperaccess.com/full/815670.jpg);
+    box-shadow: 4px 4px 4px #333333;
+    position: relative;
+   
+}
+
+.main {
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.characters {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://wallpaperbat.com/img/172263-scroll-wallpaper.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px #333333;
+    
+}
+
+.main-card-title {
+    font-size: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 500;
+    color: #fff;
+    background-image: url(https://wallpaperaccess.com/full/815670.jpg);
+    box-shadow: 4px 4px 4px #333333;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid black;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.main-character {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.character-img {
+    border-radius: 4px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #333333;
+
+}
+
+#ring-title {
+   
+    background-color: transparent;
+    z-index: 2;
+    position: relative;
+    height: 10rem;
+    
+}
+
+
+
+
+
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }

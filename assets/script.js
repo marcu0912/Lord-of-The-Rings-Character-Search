@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // radomize movie quote when clicked
 
 function quote() {
@@ -12,11 +11,4 @@ function quote() {
         console.log(data["docs"][index]["dialog"]);
       }
     });
-=======
-// needs a function button that leads to the wiki page
-// random quote generator
-
-function quote() {
-  console.log("Test if button is working");
->>>>>>> 7b00c61f1e75f7ea8315adb2480829662820b4a8
 }
