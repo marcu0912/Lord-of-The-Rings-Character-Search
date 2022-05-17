@@ -7,73 +7,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The One Website</title>
     <!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <!--Internal elvish font-->
+    <link rel="stylesheet" href="./elvish_ring/stylesheet.css">
 
-<!-- CSS Reset -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 
-<!-- Milligram CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
 
-<!-- You should properly set the path from the main file. -->
-<link rel="stylesheet" href="./assets/reset.css" />
-<link rel="stylesheet" href="./assets/style.css" />
+    <!-- You should properly set the path from the main file. -->
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
 
 </head>
 
 <body>
     <div class="hero"></div>
 
-   <div class="">
-       <h1>The One Wiki</h1>
-   </div>
-      <!-- Side bar of main characters -->
-    <div class="row"><div class="characters column column-33">
-        <div class="">
-           <h3>Character</h3>
-           <img src="" alt="Picture of Legolas" />
-          <p>
-               Some sort of someone
-          </p>
-          </div>
-        <div class="">
-         <h3>Character</h3>
-         <img src="" alt="Picture of Someone" />
-        <p>
-         Some sort of someone
-        </p>
-         </div>
-        <div class="">
-         <h3>Character</h3>
-         <img src="" alt="Picture of Someone" />
-        <p>
-         Some sort of someone
-        </p>
+    <div class="">
+        <h1>The One Wiki</h1>
+    </div>
+    <!-- Side bar of main characters -->
+    <div class="row">
+        <div class="characters column column-33">
+            <div class="">
+                <h3>Character</h3>
+                <img src="" alt="Picture of Legolas" />
+                <p>
+                    Some sort of someone
+                </p>
+            </div>
+            <div class="">
+                <h3>Character</h3>
+                <img src="" alt="Picture of Someone" />
+                <p>
+                    Some sort of someone
+                </p>
+            </div>
+            <div class="">
+                <h3>Character</h3>
+                <img src="" alt="Picture of Someone" />
+                <p>
+                    Some sort of someone
+                </p>
+            </div>
+        </div>
+
+
+        <div class="column">
+            <form action="./results.html">
+                <input type="checkbox" id="male" name="male" value="male">
+                <label for="male">Male</label><br>
+                <input type="checkbox" id="female" name="female" value="female">
+                <label for="female">Female</label><br>
+                <input type="checkbox" id="race1" name="race1" value="humans">
+                <label for="race1">Humans</label><br>
+                <input type="checkbox" id="race2" name="race2" value="hobbits">
+                <label for="race2">Hobbits</label><br>
+                <input type="checkbox" id="race3" name="race3" value="elves">
+                <label for="race3">Elves</label><br>
+                <input type="checkbox" id="race4" name="race4" value="dwarves">
+                <label for="race4">Dwarves</label><br>
+                <input type="submit" value="Submit">
+            </form>
+            <div>
+                <button onclick="">Discover Characters!</button>
+            </div>
         </div>
     </div>
-
-   
-<div class="column">
-    <form action="./results.html">
-        <input type="checkbox" id="male" name="male" value="male">
-        <label for="male">Male</label><br>
-        <input type="checkbox" id="female" name="female" value="female">
-        <label for="female">Female</label><br>
-        <input type="checkbox" id="race1" name="race1" value="humans">
-        <label for="race1">Humans</label><br>
-        <input type="checkbox" id="race2" name="race2" value="hobbits">
-        <label for="race2">Hobbits</label><br>
-        <input type="checkbox" id="race3" name="race3" value="elves">
-        <label for="race3">Elves</label><br>
-        <input type="checkbox" id="race4" name="race4" value="dwarves">
-        <label for="race4">Dwarves</label><br>
-        <input type="submit" value="Submit">
-      </form>
-      <div>
-        <button onclick="">Discover Characters!</button> 
-    </div>
-</div>
-    </div> <!--end row -->
+    <!--end row -->
 
 </body>
 
