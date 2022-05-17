@@ -5,7 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The One Website</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+<!-- CSS Reset -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+<!-- Milligram CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+<!-- You should properly set the path from the main file. -->
+<link rel="stylesheet" href="./assets/reset.css" />
+<link rel="stylesheet" href="./assets/style.css" />
+
 </head>
 
 <body>
@@ -30,7 +42,31 @@
         <div id="Gandolf">
             <img src="" alt="Picture of Someone" />
         </div>
+
+
+   
+<div class="column">
+    <form action="./results.html">
+        <input type="checkbox" id="male" name="male" value="male">
+        <label for="male">Male</label><br>
+        <input type="checkbox" id="female" name="female" value="female">
+        <label for="female">Female</label><br>
+        <input type="checkbox" id="race1" name="race1" value="humans">
+        <label for="race1">Humans</label><br>
+        <input type="checkbox" id="race2" name="race2" value="hobbits">
+        <label for="race2">Hobbits</label><br>
+        <input type="checkbox" id="race3" name="race3" value="elves">
+        <label for="race3">Elves</label><br>
+        <input type="checkbox" id="race4" name="race4" value="dwarves">
+        <label for="race4">Dwarves</label><br>
+        <input type="submit" value="Submit">
+      </form>
+      <div>
+        <button onclick="">Discover Characters!</button> 
     </div>
+</div>
+    </div> <!--end row -->
+
 </body>
 
 <footer>
@@ -42,3 +78,5 @@
 <script src="./assets/script.js"></script>
 
 </html>
+
+<!-- Testing Push to branch -->
