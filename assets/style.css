@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    font-family: 'Macondo', cursive;
+}
 
 .hero {
     height: 200px;
