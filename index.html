@@ -8,26 +8,27 @@
       <!-- Google Fonts -->
     <!-- Google Fonts -->
 
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 
-<!-- CSS Reset -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
 
-<!-- Milligram CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <!-- You should properly set the path from the main file. -->
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
 
-<!-- You should properly set the path from the main file. -->
-<link rel="stylesheet" href="./assets/reset.css" />
-<link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./elvish_ring/stylesheet.css">
 </head>
 
-<body><div class=".container">
+<body id="body" style="font-family: Bilbo;"><div class=".container">
    <div class="hero"></div>
 
    <div class="title row">
-       <div><h1 class="page-title">The One Wiki <img id="ring-title" src="./assets/images/favpng_the-lord-of-the-rings-the-hobbit-sauron-frodo-baggins-one-ring.png" /></h1></div>
+       <div><h1  class="page-title">The One Wiki<img  class="button button-clear"  id="ring-title" src="./assets/images/favpng_the-lord-of-the-rings-the-hobbit-sauron-frodo-baggins-one-ring.png" /></h1></div>
    </div>
       <!-- Side bar of main characters -->
-    <div class="row main"><div class="characters column column-33">
+    <div class="row main"><div class="characters column">
         <div class="main-character">
            <h3 class="main-card-title"><a href="https://en.wikipedia.org/wiki/Gandalf">Gandalf</a></h3>
            <img class="character-img" src="http://farm6.static.flickr.com/5171/5591162248_6ed3f35b5b.jpg" alt="Gandalf the Grey" />
@@ -50,37 +51,38 @@
         </p>
         </div>
     </div>
+    
+    
+   
+<div class="column search-area">
+    <div class="search-title">
+        <h2 class="search-area-title">Discover New Characters</h2>
+        <p class="search-text">Select some general criteria and discover some random characters that you've probably never heard of!</p>
+    </div>
 
-<div class="welcome">
-    <h2 class="intro">Welcome to The One Wiki!</h2>
-    <p class="intro-p">Here at The One Wiki access our database to discover new characters that you may have never heard of! Just select some options
-        and have three randomly generated characters pop up!
-    </p>
-</div>
-<div class="column">
-    <form action="./results.html">
-        <input type="checkbox" id="male" name="male" value="male">
-        <label for="male">Male</label><br>
-        <input type="checkbox" id="female" name="female" value="female">
-        <label for="female">Female</label><br>
-        <input type="checkbox" id="race1" name="race1" value="humans">
-        <label for="race1">Humans</label><br>
-        <input type="checkbox" id="race2" name="race2" value="hobbits">
-        <label for="race2">Hobbits</label><br>
-        <input type="checkbox" id="race3" name="race3" value="elves">
-        <label for="race3">Elves</label><br>
-        <input type="checkbox" id="race4" name="race4" value="dwarves">
-        <label for="race4">Dwarves</label><br>
-        <input type="checkbox" id="creatures" name="creatures" value="creatures">
-        <label for="creatures">Creatures</label><br>
-        <input type="submit" value="Submit">
+    <form class = "home-search" action="./results.html">
 
+        <div class="gender">
+            <h2>Choose Gender</h2>
+            <input type="checkbox" id="male" name="male" value="male">
+            <label for="male">Male</label>
+            <input type="checkbox" id="female" name="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div class="race">
+            <h2>Choose Race</h2>
+            <input type="checkbox" id="race1" name="race1" value="humans">
+            <label for="race1">Humans</label>
+            <input type="checkbox" id="race2" name="race2" value="hobbits">
+            <label for="race2">Hobbits</label>
+            <input type="checkbox" id="race3" name="race3" value="elves">
+            <label for="race3">Elves</label>
+            <input type="checkbox" id="race4" name="race4" value="dwarves">
+            <label for="race4">Dwarves</label>
+            <input type="submit" value="Discover Characters">
+        </div>
       </form>
-
-      <div>
-        <button onclick="">Discover Characters!</button> 
-    </div>
-    </div>
+      
 </div>
     </div> <!--end row -->
 </div> <!--end container-->
