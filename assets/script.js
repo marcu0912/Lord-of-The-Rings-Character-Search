@@ -12,3 +12,25 @@ function quote() {
       }
     });
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.getElementById("ring-title").addEventListener("click", elvishFont);
+function elvishFont() {
+  var selection = document.getElementById("body");
+  if (selection.style.fontFamily == 'Bilbo') {
+    selection.style.fontFamily = "elvish_ring_nfiregular";
+  }else{
+    selection.style.fontFamily = "Bilbo";
+  }
+}
