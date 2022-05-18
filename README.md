@@ -27,9 +27,20 @@ https://trello.com/en-US
 
 <img src="./assets/images/trello_kanban.png" alt="Trello Kanban" >
 
+API for font
+https://fonts.google.com/specimen/Tangerine
+
+API for information on Lord of the Rings
+https://the-one-api.dev/
+
 Milligram was used for the CSS framework.
 https://milligram.io/
 
 Font Squirrel was used for coverting webfonts to a WebFont Kit with CSS
 https://www.fontsquirrel.com/tools/webfont-generator
 
+URL to GitHub repository
+https://github.com/marcu0912/Project-1
+
+URL to launch the applictaion
+https://marcu0912.github.io/Project-1/
