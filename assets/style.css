@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-* {
-    font-family: 'Macondo', cursive;
-}
-
-=======
 @import url('https://fonts.googleapis.com/css2?family=Bilbo&display=swap');
 
 
@@ -16,7 +10,6 @@ body {
     background-image: url(https://wallpaperaccess.com/full/3872532.jpg);
     background-size: cover;
 }
->>>>>>> 6a214925d4f7966d2182df88e282caff7ae7133a
 .hero {
     height: 200px;
     width: 100%;
