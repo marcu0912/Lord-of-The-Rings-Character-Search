@@ -37,9 +37,7 @@ function elvishFont() {
   var selection = document.getElementById("body");
   if (selection.style.fontFamily == 'Tangerine') {
     selection.style.fontFamily = "elvish_ring_nfiregular";
-  } else {
-    selection.style.fontFamily = "Bilbo";
-  }else{
+  }else {
     selection.style.fontFamily = "Tangerine";
   }
 }
