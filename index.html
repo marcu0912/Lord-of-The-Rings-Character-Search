@@ -17,22 +17,23 @@
     <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
 
+    <link rel="stylesheet" href="./elvish_ring/stylesheet.css">
 </head>
 
-<body>
+<body id="body" style="font-family: Bilbo;">
     <div class=".container">
         <div class="hero"></div>
 
         <div class="title row">
             <div>
-                <h1 class="page-title">The One Wiki <img id="ring-title"
+                <h1 class="page-title">The One Wiki<img class="button button-clear" id="ring-title"
                         src="./assets/images/favpng_the-lord-of-the-rings-the-hobbit-sauron-frodo-baggins-one-ring.png" />
                 </h1>
             </div>
         </div>
         <!-- Side bar of main characters -->
         <div class="row main">
-            <div class="characters column column-33">
+            <div class="characters column">
                 <div class="main-character">
                     <h3 class="main-card-title">Character</h3>
                     <img class="character-img" src="http://farm6.static.flickr.com/5171/5591162248_6ed3f35b5b.jpg"
@@ -57,39 +58,51 @@
                         Some sort of someone
                     </p>
                 </div>
+                <!-- Side bar of main characters -->
             </div>
 
-
-
-            <div class="column">
-                <form action="./results.html">
-                    <input type="checkbox" id="male" name="male" value="male">
-                    <label for="male">Male</label><br>
-                    <input type="checkbox" id="female" name="female" value="female">
-                    <label for="female">Female</label><br>
-                    <input type="checkbox" id="race1" name="race1" value="humans">
-                    <label for="race1">Humans</label><br>
-                    <input type="checkbox" id="race2" name="race2" value="hobbits">
-                    <label for="race2">Hobbits</label><br>
-                    <input type="checkbox" id="race3" name="race3" value="elves">
-                    <label for="race3">Elves</label><br>
-                    <input type="checkbox" id="race4" name="race4" value="dwarves">
-                    <label for="race4">Dwarves</label><br>
-                    <input type="submit" value="Submit">
-                </form>
-                <div>
-                    <button onclick="">Discover Characters!</button>
+            <!--end row -->
+            <div class="column search-area">
+                <div class="search-title">
+                    <h2 class="search-area-title">Discover New Characters</h2>
+                    <p class="search-text">Select some general criteria and discover some random characters that
+                        you've probably never heard of!</p>
                 </div>
+
+                <form class="home-search" action="./results.html">
+
+                    <div class="gender">
+                        <h2>Choose Gender</h2>
+                        <input type="checkbox" id="male" name="male" value="male">
+                        <label for="male">Male</label>
+                        <input type="checkbox" id="female" name="female" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="race">
+                        <h2>Choose Race</h2>
+                        <input type="checkbox" id="race1" name="race1" value="humans">
+                        <label for="race1">Humans</label>
+                        <input type="checkbox" id="race2" name="race2" value="hobbits">
+                        <label for="race2">Hobbits</label>
+                        <input type="checkbox" id="race3" name="race3" value="elves">
+                        <label for="race3">Elves</label>
+                        <input type="checkbox" id="race4" name="race4" value="dwarves">
+                        <label for="race4">Dwarves</label>
+                        <input type="submit" value="Discover Characters">
+                    </div>
+                </form>
+                <div class="">
+                    <h1 id="movie-quote">Random Generated quote</h1>
+                    <div id="movie-quote-container"></div>
+                    <button id="quote-btn" onclick="quote()">Generate a Random Movie Quote!</button>
+                </div>
+
             </div>
         </div>
         <!--end row -->
     </div>
     <!--end container-->
-    <div class="">
-        <h1 id="movie-quote">Random Generated quote</h1>
-        <div id="movie-quote-container"></div>
-        <button id="quote-btn" onclick="quote()">Generate a Random Movie Quote!</button>
-    </div>
+
 </body>
 
 <footer>

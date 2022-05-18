@@ -1,6 +1,7 @@
 // radomize movie quote when clicked
 // target the container to genorate random quote
-//
+//style better
+// randomizor
 
 var quoteDisplayEl = document.getElementById("movie-quote-container");
 
@@ -17,4 +18,14 @@ function quote() {
         quoteDisplayEl.appendChild(quotes);
       }
     });
+}
+
+document.getElementById("ring-title").addEventListener("click", elvishFont);
+function elvishFont() {
+  var selection = document.getElementById("body");
+  if (selection.style.fontFamily == "Bilbo") {
+    selection.style.fontFamily = "elvish_ring_nfiregular";
+  } else {
+    selection.style.fontFamily = "Bilbo";
+  }
 }
