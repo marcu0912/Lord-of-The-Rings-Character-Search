@@ -23,7 +23,7 @@ function quote() {
 
 
 
-
+//This is the functin that allows the hidden button inbeded into the header image of a ring to toggle fonts//
 
 document.getElementById("ring-title").addEventListener("click", elvishFont);
 function elvishFont() {
