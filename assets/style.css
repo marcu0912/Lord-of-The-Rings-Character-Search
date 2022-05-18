@@ -3,12 +3,15 @@
 
 * {
     font-family: 'Bilbo', cursive;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 
 body {
     background-image: url(https://wallpaperaccess.com/full/3872532.jpg);
     background-size: cover;
+    
 }
 .hero {
     height: 200px;
@@ -20,13 +23,6 @@ body {
     border-bottom: 10px ridge grey;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 2rem auto;
-    
-}
 
 .title {
     text-align: center;
@@ -44,7 +40,7 @@ body {
     border: 2px solid black;
     border-radius: 4px;
     padding: 1rem 2rem;
-    margin-top: -7rem;
+    margin-top: -9rem;
     background-image: url(https://wallpaperaccess.com/full/815670.jpg);
     box-shadow: 4px 4px 4px #333333;
     position: relative;
@@ -52,8 +48,14 @@ body {
 }
 
 .main {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+     */
+   
+    /* max-width: 95%; */
 
 }
 
@@ -62,7 +64,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(https://wallpaperbat.com/img/172263-scroll-wallpaper.jpg);
+    background-image: url(images/Community\ wall\ photos.jpg);
     background-size: cover;
     border: 2px solid black;
     border-radius: 4px;
@@ -106,9 +108,107 @@ body {
     background-color: transparent;
     z-index: 2;
     position: relative;
-    height: 10rem;
-    
+    height: 7rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    margin-bottom: -2rem;
 }
+
+.search-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px #333333;
+    
+    min-width: 68%;
+}
+
+.search-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-area-title {
+    font-size: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 500;
+    color: #fff;
+    background-image: url(https://wallpaperaccess.com/full/815670.jpg);
+    box-shadow: 4px 4px 4px #333333;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid black;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    margin-top: 2rem;
+}
+
+.search-text {
+    font-size: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+    color: #fff;
+    background-image: url(https://wallpaperaccess.com/full/815670.jpg);
+    box-shadow: 4px 4px 4px #333333;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid black;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    margin-top: 0.5rem;
+}
+
+
+.home-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/formback.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px #333333;
+    padding-top: 8rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.home-search h2 {
+    font-size: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 500;
+    color: #fff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+label {
+    font-size: 3rem;
+    color: black;
+  margin-top: -0.3rem;
+}
+
+input {
+    margin-top: 1rem;
+}
+
+
+
+
+
 
 
 
@@ -120,6 +220,17 @@ body {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
     }
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      text-shadow: 0 0 20px #fff, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px #ff4da6, 0 0 70px blue, 0 0 80px blue;
     }
+  }
+
+
+  @media screen and (max-width: 800px) {
+      .container {
+          flex-direction: column;
+      }
+
+      .main {
+          flex-direction: column;
+      }
   }
