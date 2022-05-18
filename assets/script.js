@@ -1,4 +1,4 @@
-let logolasEl = document.getElementById("legolas")
+
 
 // radomize movie quote when clicked
 
@@ -26,7 +26,6 @@ legolasEl.addEventListener("dblclick", function() {
         console.log(data["docs"]["race"]);
 })
     
-    //Legolas id: 5cd99d4bde30eff6ebccfd81
 
 
 document.getElementById("ring-title").addEventListener("click", elvishFont);
@@ -37,4 +36,3 @@ function elvishFont() {
   }else{
     selection.style.fontFamily = "Bilbo";
   }
-}
