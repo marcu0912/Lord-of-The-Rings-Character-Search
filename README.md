@@ -18,5 +18,5 @@ This is the first project.
 
 Trello was used for ticket managemet
 
-
+<img src="./assets/images/trello_kanban.png" alt="Trello Kanban" >
  
