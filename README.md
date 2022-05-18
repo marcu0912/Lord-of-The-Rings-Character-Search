@@ -18,7 +18,7 @@ The One Wiki is a group project that allows the user see the wiki's of developer
  Max Shaw - HTML
  Bill Hardgrove - Project Management
 
-<img src="./assets/images/group_work.png" alt="Group 2 hard at work on CSS formating"
+<img src="./assets/images/group_work.png" alt="Group 2 hard at work on CSS formating" >
 
 
 
@@ -32,27 +32,27 @@ https://trello.com/en-US
 <img src="./assets/images/trello_kanban.png" alt="Trello Kanban fo group 2 example" >
 
 
-API for font
+API for font:
 https://fonts.google.com/specimen/Tangerine
 
-API for information on Lord of the Rings
+API for information on Lord of the Rings:
 https://the-one-api.dev/
 
-Milligram was used for the CSS framework.
+Milligram was used for the CSS framework:
 https://milligram.io/
 
-Font Squirrel was used for coverting webfonts to a WebFont Kit with CSS
+Font Squirrel was used for coverting webfonts to a WebFont Kit with CSS:
 https://www.fontsquirrel.com/tools/webfont-generator
 
-URL to GitHub repository
+URL to GitHub repository:
 https://github.com/marcu0912/Project-1
 
-URL to launch the applictaion
+URL to launch the applictaion:
 https://marcu0912.github.io/Project-1/
 
 WIREFRAME
 
-<img src="./assets/images/landing_page.pdf>
-<img src="./assets/images/results_page.pdf>
+<img src="./assets/images/landing_page.pdf" alt="Wirefram of Landing page">
+<img src="./assets/images/results_page.pdf" alt="Wireframe of results page">
 
 FINAL PAGE LAYOUT
