@@ -19,7 +19,7 @@ function quote() {
     .then((data) => {
       var singleQuote = data["docs"][randomIndex()];
       var quotes = document.createElement("div");
-      quotes.textContent = singleQuote.dialog;
+      quotes.textContent = `"${singleQuote.dialog}"`;
       quoteDisplayEl.appendChild(quotes);
     });
 }

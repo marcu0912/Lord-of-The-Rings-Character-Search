@@ -10,9 +10,13 @@
     text-shadow: 2px 2px 3px #333333;
 }
 
+.button {
+    background-color: darkgreen;
+}
 
 .btn {
     text-decoration: none;
+    background-color: darkgreen;
 }
 body {
     background-image: url(https://wallpaperaccess.com/full/3872532.jpg);
@@ -138,13 +142,15 @@ body {
 .search-results {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    background-image: url(images/formback.jpg);
+    background-size: cover;
     border: 2px solid black;
     border-radius: 4px;
     box-shadow: 4px 4px 4px #333333;
     
-    width: 30%
 }
 
 .search-title {
@@ -257,13 +263,56 @@ label {
 
 input {
     margin-top: 1rem;
+    background-color: darkgreen;
 }
 
+.begreenplease {
+    background-color: darkgreen;
+    color: darkgreen;
+}
 
+.newcharacters {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px #333333;
+    
+    min-width: 68%;
+}
 
+.new-characters-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.character-link {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
 
+.results-test {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    background-image: url(./images/Community\ wall\ photos.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px #333333;
+    padding-top: 2rem;
 
+}
+
+input[type='submit'] {
+    background-color: darkgreen;
+} 
 
 .intro {
     font-size: 5rem;
