@@ -1,89 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The One Website</title>
-    <link rel="stylesheet" href="./assets/style.css">
+      <!-- Google Fonts -->
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
-    <!--Internal elvish font-->
-    <link rel="stylesheet" href="./elvish_ring/stylesheet.css"> 
 
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <!-- You should properly set the path from the main file. -->
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <!-- Link to internal font script stylesheet-->
+    <link rel="stylesheet" href="./elvish_ring/stylesheet.css">
 </head>
 
-<body>
-    <div class="hero"></div>
-    <div>
+<body id="body" style="font-family: Tangerine;">
+    <div class=".container">
+        <div class="hero"></div>
 
-        <a href="index.html"> Home Page</a>
-
-    </div>
-
-    <div class="">
-        <h1>The One Wiki</h1>
-    </div>
-    <div>
-        <button onclick="">Discover Characters!</button>
-    </div>
-    <div>
-        <form action="./results.html">
-            <input type="checkbox" id="male" name="male" value="male">
-            <label for="male">Male</label><br>
-            <input type="checkbox" id="female" name="female" value="female">
-            <label for="female">Female</label><br>
-            <input type="checkbox" id="race1" name="race1" value="humans">
-            <label for="race1">Humans</label><br>
-            <input type="checkbox" id="race2" name="race2" value="hobbits">
-            <label for="race2">Hobbits</label><br>
-            <input type="checkbox" id="race3" name="race3" value="elves">
-            <label for="race3">Elves</label><br>
-            <input type="checkbox" id="race4" name="race4" value="dwarves">
-            <label for="race4">Dwarves</label><br>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-    <!--Featured Randomized Characters  -->
-    <div class="characters">
-        <div class="">
-            <h3>Character</h3>
-            <img src="" alt="Picture of Legolas" />
-            <p>
-                Info of random characters
-            </p>
+        <div class="title row">
+            <div>
+                <h1 class="page-title">The One Wiki<img class="button button-clear" id="ring-title"
+                        src="./assets/images/favpng_the-lord-of-the-rings-the-hobbit-sauron-frodo-baggins-one-ring.png" />
+                </h1>
+            </div>
         </div>
-        <div class="">
-            <h3>Character</h3>
-            <img src="" alt="Picture of Someone" />
-            <p>
-                Info of random characters
-            </p>
-        </div>
-        <div class="">
-            <h3>Character</h3>
-            <img src="" alt="Picture of Someone" />
-            <p>
-                Info of random characters
-            </p>
-        </div>
-    </div>
+        <!-- Side bar of main characters -->
+        
+            <!--end row -->
+            <div class="column search-results">
+                <div class="search-title">
+                    <h2 class="search-area-title">Discover New Characters</h2>
+                </div>
 
-    <div class="">
-        <h1>The One Wiki</h1>
+                <form class="home-search" action="./results.html">
+
+                    <div class="gender">
+                        <h2>Choose Gender</h2>
+                        <input type="checkbox" id="male" name="male" value="male">
+                        <label for="male">Male</label>
+                        <input type="checkbox" id="female" name="female" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="race">
+                        <h2>Choose Race</h2>
+                        <input type="checkbox" id="race1" name="race1" value="humans">
+                        <label for="race1">Humans</label>
+                        <input type="checkbox" id="race2" name="race2" value="hobbits">
+                        <label for="race2">Hobbits</label>
+                        <input type="checkbox" id="race3" name="race3" value="elves">
+                        <label for="race3">Elves</label>
+                        <input type="checkbox" id="race4" name="race4" value="dwarves">
+                        <label for="race4">Dwarves</label>
+                        <input type="submit" value="Discover Characters">
+                    </div>
+                </form>
+
+                <div class="quote-generator">
+                    <h1 id="movie-quote"></h1>
+                    <div id="movie-quote-container"></div>
+                    <button id="quote-btn" class="button button-clear" onclick="quote()">Generate a Random Movie Quote!</button>
+                </div>
+            </div>
+            <div>
+            <div class="random">
+                <div>
+                    <h1>Character</h1>
+                    <p>Stats or whatever</p>
+                </div>
+                <div>
+                    <h1>Character</h1>
+                    <p>Stats or whatever</p>
+                </div> 
+                <div>
+                    <h1>Character</h1>
+                    <p>Stats or whatever</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--end row -->
     </div>
+    <!--end container-->
 
 </body>
-
-<footer>
-    <div class="">
-        <h1 class="">Random Generated quote</h1>
-        <button id="quote-btn" onclick="quote()">Generate a Random Movie Quote!</button>
-    </div>
-</footer>
 
 <script src="./assets/script.js"></script>
 
