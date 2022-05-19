@@ -1,4 +1,4 @@
-
+let legolasEl = document.getElementById("legolas")
 
 // radomize movie quote when clicked
 
@@ -17,22 +17,26 @@ function quote() {
 
 
 // 3 side character buttons
-legolasEl.addEventListener("dblclick", function () {
-  fetch("https://the-one-api.dev/v2/character/5cd99d4bde30eff6ebccfd81", {
-    headers: { Authorization: "bearer EG4f6juh1PF0X82amiv_" },
+
+
+legolasEl.addEventListener('dblclick', function () {
+  fetch('https://the-one-api.dev/v2/character/5cd99d4bde30eff6ebccfd81', {
+    headers: { Authorization: 'bearer EG4f6juh1PF0X82amiv_'},
+
   })
-    .then((response) => response.json())
-    .then((data) => {
-      console.log(data["docs"]["name"]);
-      console.log(data["docs"]["race"]);
-      console.log(data["docs"]["hair"]);
-      console.log(data["docs"]["death"]);
-    })
-}
-
-
+  .then ((response) => response.json())
+  .then ((data) => {
+    console.log(data['docs'] ['name']);
+    console.log(data['docs'] ['race']);
+    console.log(data['docs'] ['hair']);
+    console.log(data['docs'] ['death']);
+    
+  })
+})
 
 document.getElementById("ring-title").addEventListener("click", elvishFont);
+
+
 function elvishFont() {
   var selection = document.getElementById("body");
   if (selection.style.fontFamily == 'Tangerine') {
