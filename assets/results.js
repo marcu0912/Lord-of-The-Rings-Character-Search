@@ -6,6 +6,18 @@ var queryString = document.location.search
 var results = queryString.split("?")[1]
 var data = results.split("&")
 let arrCharacterType = [] 
+
+  // // Function to activate the 
+  // document.getElementById("ring-title").addEventListener("click", elvishFont);
+  // function elvishFont() {
+  //   var selection = document.getElementById("body");
+  //   if (selection.style.fontFamily == "Tangerine") {
+  //     selection.style.fontFamily = "elvish_ring_nfiregular";
+  //   } else {
+  //     selection.style.fontFamily = "Tangerine";
+  //   }
+  // }
+
 for (let i = 0; i < data.length; i++) {
 	var d = data[i].split("=")
   arrCharacterType.push(d[1])
@@ -52,4 +64,8 @@ fetch("https://the-one-api.dev/v2/character", {
      person3.href = person3Link;
      person3.textContent = person3Name;
   });
+
+
+
+
 
