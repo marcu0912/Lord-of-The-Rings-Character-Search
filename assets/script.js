@@ -9,6 +9,7 @@ function randomIndex() {
   return Math.floor(Math.random() * 1000);
 }
 
+
 function quote() {
   quoteDisplayEl.innerHTML = "";
 
@@ -21,8 +22,14 @@ function quote() {
       var quotes = document.createElement("div");
       quotes.textContent = `"${singleQuote.dialog}"`;
       quoteDisplayEl.appendChild(quotes);
+      localStorage.setItem("quotes", JSON.stringify(singleQuote.dialog));
+      let storedQuote = localStorage.getItem("quotes")
+      console.log(storedQuote, "hello")
     });
 }
+
+
+
 
 // Function to activate the 
 document.getElementById("ring-title").addEventListener("click", elvishFont);

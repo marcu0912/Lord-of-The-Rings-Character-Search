@@ -6,6 +6,10 @@ var queryString = document.location.search
 var results = queryString.split("?")[1]
 var data = results.split("&")
 let arrCharacterType = [] 
+let oldQuotes = document.getElementById("oldQuotes")
+let storedQuotes1 = localStorage.getItem("quotes")
+console.log(storedQuotes1)
+oldQuotes.innerHTML = storedQuotes1;
 
   // // Function to activate the 
   // document.getElementById("ring-title").addEventListener("click", elvishFont);
@@ -64,8 +68,3 @@ fetch("https://the-one-api.dev/v2/character", {
      person3.href = person3Link;
      person3.textContent = person3Name;
   });
-
-
-
-
-
