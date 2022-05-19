@@ -17,88 +17,106 @@
     <!-- You should properly set the path from the main file. -->
     <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
-
+    <!-- Link to internal font script stylesheet-->
     <link rel="stylesheet" href="./elvish_ring/stylesheet.css">
 </head>
 
-<body id="body" style="font-family: Tangerine;"><div class=".container">
-   <div class="hero"></div>
+<body id="body" style="font-family: Bilbo;">
+    <div class=".container">
+        <div class="hero"></div>
 
-   <div class="title row">
-       <div><h1  class="page-title">The One Wiki<img  class="button button-clear"  id="ring-title" src="./assets/images/favpng_the-lord-of-the-rings-the-hobbit-sauron-frodo-baggins-one-ring.png" /></h1></div>
-   </div>
-      <!-- Side bar of main characters -->
-    <div class="row main"><div class="characters column">
-        <div class="main-character">
-           <h3 class="main-card-title"><a href="https://en.wikipedia.org/wiki/Gandalf" target="_blank">Gandalf</a></h3>
-           <img class="character-img" src="http://farm6.static.flickr.com/5171/5591162248_6ed3f35b5b.jpg" alt="Gandalf the Grey" />
-          <p>
-            Gandalf has great power, but works mostly by encouraging and persuading.
-          </p>
-          </div>
-        <div class="main-character">
-         <h3 class="main-card-title"><a href="https://en.wikipedia.org/wiki/Frodo_Baggins" target="blank">Frodo Baggins</a></h3>
-         <img class="character-img" src="./assets/images/Frodo.png" alt="Frodo Baggins" />
-        <p>
-         Hobbit known for destroying the Ring of Power at Mount Mordor.
-        </p>
-         </div>
-        <div class="main-character">
-         <h3 class="main-card-title"><a href="https://en.wikipedia.org/wiki/Legolas" target="blank">Legolas</a></h3>
-         <img class="character-img" src="./assets/images/legolas-ultimate-edition_the-lord-of-the-rings_square.jpg" alt="Picture of Someone" />
-        <p>
-         Sindar Elf of the Woodland Realm, a member of the Fellowship of The Ring
-        </p>
+        <div class="title row">
+            <div>
+                <h1 class="page-title">The One Wiki<img class="button button-clear" id="ring-title"
+                        src="./assets/images/favpng_the-lord-of-the-rings-the-hobbit-sauron-frodo-baggins-one-ring.png" />
+                </h1>
+            </div>
         </div>
-    </div>
-    
-    
-   
-<div class="column search-area">
-    <div class="search-title">
-        <h2 class="search-area-title">Discover New Characters</h2>
-        <p class="search-text">Select some general criteria and discover some random characters that you've probably never heard of!</p>
-    </div>
+        <!-- Side bar of main characters -->
+        <div class="row main">
+            <div class="characters column">
+                <div class="main-character">
+                    <h3 class="main-card-title">Legolas</h3>
+                    <a href="results.html" target="_blank" rel="noopener">
+                        <button id="legolas-button">
+                            <img class="character-img"
+                                src="http://farm6.static.flickr.com/5171/5591162248_6ed3f35b5b.jpg"
+                                alt="Picture of Legolas" />
+                        </button>
+                    </a>
+                </div>
+                <div class="main-character">
+                    <h3 class="main-card-title">Gandolf</h3>
+                    <a href="results.html" target="_blank" rel="noopener">
+                        <button id="gandolf-button">
+                            <img class="character-img"
+                                src="http://farm6.static.flickr.com/5171/5591162248_6ed3f35b5b.jpg"
+                                alt="Picture of Gandolf" />
+                        </button>
+                    </a>
+                </div>
+                <div class="main-character">
+                    <h3 class="main-card-title">Gollum</h3>
+                    <a href="results.html" target="_blank" rel="noopener">
+                        <button id="gollum-button">
+                            <img class="character-img"
+                                src="http://farm6.static.flickr.com/5171/5591162248_6ed3f35b5b.jpg"
+                                alt="Picture of Gollum" />
+                        </button>
+                    </a>
+                </div>
+                <!-- Side bar of main characters -->
+            </div>
+            <!--end row -->
+            <div class="column search-area">
+                <div class="search-title">
+                    <h2 class="search-area-title">Discover New Characters</h2>
+                    <p class="search-text">Select some general criteria and discover some random characters that
+                        you've probably never heard of!</p>
+                </div>
 
-    <form class = "home-search" action="./results.html">
+                <form class="home-search" action="./results.html">
 
-        <div class="gender">
-            <h2>Choose Gender</h2>
-            <input type="checkbox" id="male" name="male" value="male">
-            <label for="male">Male</label>
-            <input type="checkbox" id="female" name="female" value="female">
-            <label for="female">Female</label>
+                    <div class="gender">
+                        <h2>Choose Gender</h2>
+                        <input type="checkbox" id="male" name="male" value="male">
+                        <label for="male">Male</label>
+                        <input type="checkbox" id="female" name="female" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="race">
+                        <h2>Choose Race</h2>
+                        <input type="checkbox" id="race1" name="race1" value="humans">
+                        <label for="race1">Humans</label>
+                        <input type="checkbox" id="race2" name="race2" value="hobbits">
+                        <label for="race2">Hobbits</label>
+                        <input type="checkbox" id="race3" name="race3" value="elves">
+                        <label for="race3">Elves</label>
+                        <input type="checkbox" id="race4" name="race4" value="dwarves">
+                        <label for="race4">Dwarves</label>
+                        <input type="submit" value="Discover Characters">
+                    </div>
+                </form>
+                <div class="">
+                    <h1 id="movie-quote">Random Generated quote</h1>
+                    <div id="movie-quote-container"></div>
+                    <button id="quote-btn" onclick="quote()">Generate a Random Movie Quote!</button>
+                </div>
+
+            </div>
         </div>
-        <div class="race">
-            <h2>Choose Race</h2>
-            <input type="checkbox" id="race1" name="race1" value="humans">
-            <label for="race1">Humans</label>
-            <input type="checkbox" id="race2" name="race2" value="hobbits">
-            <label for="race2">Hobbits</label>
-            <input type="checkbox" id="race3" name="race3" value="elves">
-            <label for="race3">Elves</label>
-            <input type="checkbox" id="race4" name="race4" value="dwarves">
-            <label for="race4">Dwarves</label>
-            <input type="submit" value="Discover Characters">
-        </div>
-      </form>
-      <div class="">
-        <h1 class="">Random Generated quote</h1>
-        <button id="quote-btn" onclick="quote()">Generate a Random Movie Quote!</button>
+        <!--end row -->
     </div>
-</div>
-    </div> <!--end row -->
-</div> <!--end container-->
+    <!--end container-->
+
 </body>
-
 <footer>
     <div class="">
-     <h1 class="">Random Generated quote</h1>
+        <h1 class="">Random Generated quote</h1>
+        <button id = "quote-btn" onclick="quote()">Generate a Random Movie Quote!</button>
     </div>
 </footer>
 
 <script src="./assets/script.js"></script>
 
 </html>
-
-<!-- Testing Push to branch -->
