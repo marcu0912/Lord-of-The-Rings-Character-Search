@@ -72,6 +72,7 @@ body {
     text-align: center;
     border-radius: 4px;
     border: 2px solid black;
+    text-shadow: 2px 2px black;
     /* -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate; */
@@ -117,6 +118,18 @@ body {
     min-width: 68%;
 }
 
+.search-results {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px #333333;
+    
+    width: 30%
+}
+
 .search-title {
     display: flex;
     flex-direction: column;
@@ -138,6 +151,7 @@ body {
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate; */
     margin-top: 2rem;
+    text-shadow: 2px 2px black;
 }
 
 .search-text {
@@ -157,6 +171,7 @@ body {
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate; */
     margin-top: 0.5rem;
+    text-shadow: 2px 2px black;
 }
 
 
@@ -173,6 +188,7 @@ body {
     padding-top: 8rem;
     text-align: center;
     padding-bottom: 2rem;
+    text-shadow: 2px 2px rgb(255, 255, 255);
 }
 
 .home-search h2 {
@@ -181,10 +197,33 @@ body {
     padding-right: 2rem;
     font-weight: 500;
     color: #fff;
+    text-shadow: 2px 2px black;
     /* -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;*/
 } 
+
+#movie-quote-container {
+    font-size: 5rem;
+    font-weight: 500;
+    color: black;
+    text-shadow: 2px 2px #fff;
+    text-align: center;
+}
+
+#quote-btn {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    
+}
+
+
+.quote-generator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 label {
     font-size: 4rem;
