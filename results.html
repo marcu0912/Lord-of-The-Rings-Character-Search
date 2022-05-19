@@ -21,17 +21,24 @@
     <link rel="stylesheet" href="./elvish_ring/stylesheet.css">
 </head>
 
-<body id="body" style="font-family: Bilbo;">
+<body id="body" style="font-family: Tangerine;">
     <div class=".container">
         <div class="hero"></div>
 
-    <div class="">
-        <h1>The One Wiki</h1>
-    </div>
-    <div>
-        <button onclick="">Discover Characters!</button>
-    </div>
-    <div>
+        <div class="title row">
+            <div>
+                <h1 class="page-title">The One Wiki<img class="button button-clear" id="ring-title"
+                        src="./assets/images/favpng_the-lord-of-the-rings-the-hobbit-sauron-frodo-baggins-one-ring.png" />
+                </h1>
+            </div>
+        </div>
+
+  
+<div class="row main">
+    <div class="column search-results">
+        <div class="search-title">
+            <h2 class="search-area-title">Discover New Characters</h2>
+        </div>
         <form action="./results.html">
             <input type="checkbox" id="gender" name="gender" value="male">
             <label for="male">Male</label><br>
@@ -45,15 +52,12 @@
             <label for="race">Elves</label><br>
             <input type="checkbox" id="race" name="race" value="dwarves">
             <label for="race">Dwarves</label><br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Discover Characters">
         </form>
-        <div class="results-test">
-            <a href="" id="person1" target="_blank" rel="noopener">Holder Text</a>
-            <a href="" id="person2" target="_blank" rel="noopener">Holder Text</a>
-            <a href="" id="person3" target="_blank" rel="noopener">Holder Text</a>
-        </div>
+       
     </div>
 
+<<<<<<< HEAD
     <!--Featured Randomized Characters  -->
     <div class="characters">
         <div class="">
@@ -78,13 +82,23 @@
         </div>
         <!-- Side bar of main characters -->    
             
+=======
+    <div class="column newcharacters">
+        <div class="results-test">
+            <a href="" id="person1" target="_blank" rel="noopener"><h2 class="results">Holder Text</h2></a>
+            <a href="" id="person2" target="_blank" rel="noopener"><h2 class="results">Holder Text</h2></a>
+            <a href="" id="person3" target="_blank" rel="noopener"><h2 class="results">Holder Text</h2></a>
+>>>>>>> c06224d71e345471ef2b065e6f9537d8bc84b93d
         </div>
-        <!--end row -->
     </div>
+</div>
+    <!--Featured Randomized Characters  -->
+  
     <!--end container-->
 
 </body>
-
+<script src="./assets/script.js"></script>
 <script src="./assets/results.js"></script>
+
 
 </html>
