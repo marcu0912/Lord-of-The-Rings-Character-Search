@@ -34,3 +34,50 @@ function elvishFont() {
     selection.style.fontFamily = "Tangerine";
   }
 }
+//-----------------------------------------
+// 3 side character buttons
+// Legolas side button
+let legolasBtn = document.getElementById("legolas-button")
+legolasBtn.addEventListener('click', function () {
+  fetch('https://the-one-api.dev/v2/character/5cd99d4bde30eff6ebccfd81', {
+    headers: { Authorization: 'bearer EG4f6juh1PF0X82amiv_' },
+  })
+    .then(res => res.json())
+    .then((data) => {
+      console.log(data['docs'][0].name)
+      console.log("Race: " + data['docs'][0].race)
+      console.log("Gender: " + data['docs'][0].gender)
+      console.log("Hair: " + data['docs'][0].hair)
+      console.log("Died: " + data['docs'][0].death)
+    })
+})
+// Gandolf side button
+let gandolfBtn = document.getElementById("gandolf-button")
+gandolfBtn.addEventListener('click', function () {
+  fetch('https://the-one-api.dev/v2/character/5cd99d4bde30eff6ebccfea0', {
+    headers: { Authorization: 'bearer EG4f6juh1PF0X82amiv_' },
+  })
+    .then(res => res.json())
+    .then((data) => {
+      console.log(data['docs'][0].name)
+      console.log("Race: " + data['docs'][0].race)
+      console.log("Gender: " + data['docs'][0].gender)
+      console.log("Hair: " + data['docs'][0].hair)
+      console.log("Born: " + data['docs'][0].birth)
+      console.log("Died: " + data['docs'][0].death)
+    })
+})
+// Gollum side button
+let gollumBtn = document.getElementById("gollum-button")
+gollumBtn.addEventListener('click', function () {
+  fetch('https://the-one-api.dev/v2/character/5cd99d4bde30eff6ebccfe9e', {
+    headers: { Authorization: 'bearer EG4f6juh1PF0X82amiv_' },
+  })
+    .then(res => res.json())
+    .then((data) => {
+      console.log(data['docs'][0].name)
+      console.log("Race: " + data['docs'][0].race)
+      console.log("Gender: " + data['docs'][0].gender)
+      console.log("Died: " + data['docs'][0].death)
+    })
+})
