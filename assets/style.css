@@ -78,8 +78,8 @@ body {
     text-align: center;
     border-radius: 4px;
     border: 2px solid black;
-    text-shadow: 2px 2px black;
-    /* -webkit-animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 2px 2px 3px #333333;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate; 
 }
@@ -156,7 +156,7 @@ body {
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate; */
     margin-top: 2rem;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px 2px #333333;
 }
 
 .search-text {
@@ -175,7 +175,7 @@ body {
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate; */
     margin-top: 0.5rem;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px 3px #333333;
 }
 
 
@@ -192,7 +192,7 @@ body {
     padding-top: 8rem;
     text-align: center;
     padding-bottom: 2rem;
-    text-shadow: 2px 2px rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px #333333;
 }
 
 .home-search h2 {
@@ -201,7 +201,7 @@ body {
     padding-right: 2rem;
     font-weight: 500;
     color: #fff;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px 3px #333333;
     /* -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;*/
@@ -210,15 +210,20 @@ body {
 #movie-quote-container {
     font-size: 5rem;
     font-weight: 500;
-    color: black;
-    text-shadow: 2px 2px #fff;
+    color: #fff;
+    text-shadow: 2px 2px 3px black;
     text-align: center;
 }
 
 #quote-btn {
-    font-size: 2rem;
-    font-weight: 600;
-    color: black;
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    font-family: "Bilbo";
+    max-width: fit-content;
+    
     
 }
 
@@ -227,6 +232,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-image: url(./images/815670.jpg);
+    box-shadow: 4px 4px 4px #333333;
+    border-radius: 4px;
+    margin-bottom: 3rem;
 }
 
 label {
@@ -278,5 +288,9 @@ input {
 
       .main {
           flex-direction: column;
+      }
+
+      #quote-btn {
+          font-size: 2rem;
       }
   }
