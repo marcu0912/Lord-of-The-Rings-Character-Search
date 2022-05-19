@@ -69,11 +69,11 @@ https://marcu0912.github.io/Project-1/
 
 **FINAL PAGE LAYOUT**
 
-
+**LANDING PAGE UPPER**
 <img src="./assets/images/landing_1.png" alt="Landing Page Screenshot upper" >
 
-
+**LANDING PAGE LOWER**
 <img src="./assets/images/landing_2.png" alt="Landing Page Screenshot lower" >
 
-
+**RESULTS PAGE**
 <img src="./assets/images/results_1.png" alt="Results Page Screenshot" >
