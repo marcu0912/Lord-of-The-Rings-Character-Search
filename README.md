@@ -12,7 +12,7 @@
 
  **AREAS OF RESPONSIBILITY**
 
- David Deitz - CSS     GitHub  [IonicCraze] (https://github.com/IonicCraze)
+ David Deitz - CSS     GitHub  [IonicCraze](https://github.com/IonicCraze)
 
  Nate Labine - JavaScript     GitHub [njlabine](https://github.com/njlabine)
 
