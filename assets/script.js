@@ -24,7 +24,7 @@ function quote() {
     });
 }
 
-
+// Function to activate the 
 document.getElementById("ring-title").addEventListener("click", elvishFont);
 function elvishFont() {
   var selection = document.getElementById("body");
