@@ -1,6 +1,6 @@
 # Project-1
 
-The One Wiki is a group project that allows the user see the wiki's of developer selected popular LOTR characters, and  allows them to research further by selecting gender and race to discover new characters and link to the character wiki
+"The One Wiki" is a group project that allows the user see the wiki's of developer selected popular LOTR characters. It also allows them to research further by selecting gender and race to discover new characters and link to the character wiki.
  
  USER STORY
 
@@ -8,22 +8,28 @@ The One Wiki is a group project that allows the user see the wiki's of developer
  I want...to learn more about LOTR chatacters
  So that... I can dive deeper into my fandom
 
+***
 
- AREAS OF RESPONSIBILITY
+ **AREAS OF RESPONSIBILITY**
 
  David Deitz - CSS
+
  Nate Labine - JavaScript
+
  Ivan Goya - JavaScript
+
  Marcus Martinez - GitHub management
+
  Max Shaw - HTML
- Bill Hardgrove - Project Management
 
-<img src="./assets/images/group_work.png" alt="Group 2 hard at work on CSS formating" >
+ Bill Hardgrove - Project Management  [WmHHardgrove](https://github.com/WmHHardgrove)
+
+<img src="./assets/images/group_work.png" alt="Group 2 hard at work on CSS formating, not in picture Marcus Martinez" >
 
 
+***
 
-
-TECHNOLOGY USED
+**TECHNOLOGY USED***
 
 Trello was used for ticket managemet
 https://trello.com/en-US
@@ -50,9 +56,11 @@ https://github.com/marcu0912/Project-1
 URL to launch the applictaion:
 https://marcu0912.github.io/Project-1/
 
-WIREFRAME
+***
 
-<img src="./assets/images/landing_page.pdf" alt="Wirefram of Landing page">
-<img src="./assets/images/results_page.pdf" alt="Wireframe of results page">
+**WIREFRAME**
 
-FINAL PAGE LAYOUT
+
+
+
+**FINAL PAGE LAYOUT**
