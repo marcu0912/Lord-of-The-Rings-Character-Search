@@ -2,7 +2,7 @@
 
 "The One Wiki" is a group project that allows the user see the wiki's of developer selected popular LOTR characters. It also allows them to research further by selecting gender and race to discover new characters and link to the characters wiki.
  
- USER STORY
+ **USER STORY**
 
  As a... lover of Lord of the Rings
  I want...to learn more about LOTR characters
