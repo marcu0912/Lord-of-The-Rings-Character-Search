@@ -65,4 +65,15 @@ https://marcu0912.github.io/Project-1/
 <img src="./assets/images/wireframe_results.png" alt="Results Page Wireframe" >
 
 
+***
+
 **FINAL PAGE LAYOUT**
+
+
+<img src="./assets/images/landing_1.png" alt="Landing Page Screenshot upper" >
+
+
+<img src="./assets/images/landing_2.png" alt="Landing Page Screenshot lower" >
+
+
+<img src="./assets/images/results_1.png" alt="Results Page Screenshot" >
