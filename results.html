@@ -32,66 +32,46 @@
                 </h1>
             </div>
         </div>
-        <!-- Side bar of main characters -->
-        
-            <!--end row -->
-            <div class="column search-results">
-                <div class="search-title">
-                    <h2 class="search-area-title">Discover New Characters</h2>
-                </div>
 
-                <form class="home-search" action="./results.html">
-
-                    <div class="gender">
-                        <h2>Choose Gender</h2>
-                        <input type="checkbox" id="male" name="male" value="male">
-                        <label for="male">Male</label>
-                        <input type="checkbox" id="female" name="female" value="female">
-                        <label for="female">Female</label>
-                    </div>
-                    <div class="race">
-                        <h2>Choose Race</h2>
-                        <input type="checkbox" id="race1" name="race1" value="humans">
-                        <label for="race1">Humans</label>
-                        <input type="checkbox" id="race2" name="race2" value="hobbits">
-                        <label for="race2">Hobbits</label>
-                        <input type="checkbox" id="race3" name="race3" value="elves">
-                        <label for="race3">Elves</label>
-                        <input type="checkbox" id="race4" name="race4" value="dwarves">
-                        <label for="race4">Dwarves</label>
-                        <input type="submit" value="Discover Characters">
-                    </div>
-                </form>
-
-                <div class="quote-generator">
-                    <h1 id="movie-quote"></h1>
-                    <div id="movie-quote-container"></div>
-                    <button id="quote-btn" class="button button-clear" onclick="quote()">Generate a Random Movie Quote!</button>
-                </div>
-            </div>
-            <div>
-            <div class="random">
-                <div>
-                    <h1>Character</h1>
-                    <p>Stats or whatever</p>
-                </div>
-                <div>
-                    <h1>Character</h1>
-                    <p>Stats or whatever</p>
-                </div> 
-                <div>
-                    <h1>Character</h1>
-                    <p>Stats or whatever</p>
-                </div>
-            </div>
-            </div>
+  
+<div class="row main">
+    <div class="column search-results">
+        <div class="search-title">
+            <h2 class="search-area-title">Discover New Characters</h2>
         </div>
-        <!--end row -->
+        <form action="./results.html">
+            <input type="checkbox" id="gender" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="checkbox" id="gender" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="checkbox" id="race" name="race" value="human">
+            <label for="race">Humans</label><br>
+            <input type="checkbox" id="race" name="race" value="hobbit">
+            <label for="race">Hobbits</label><br>
+            <input type="checkbox" id="race" name="race" value="elves">
+            <label for="race">Elves</label><br>
+            <input type="checkbox" id="race" name="race" value="dwarves">
+            <label for="race">Dwarves</label><br>
+            <input type="submit" value="Discover Characters">
+        </form>
+       
     </div>
+
+    <div class="column newcharacters">
+        <div class="results-test">
+            <a href="" id="person1" target="_blank" rel="noopener"><h2 class="results">Holder Text</h2></a>
+            <a href="" id="person2" target="_blank" rel="noopener"><h2 class="results">Holder Text</h2></a>
+            <a href="" id="person3" target="_blank" rel="noopener"><h2 class="results">Holder Text</h2></a>
+        </div>
+    </div>
+</div>
+    <!--Featured Randomized Characters  -->
+  
     <!--end container-->
 
 </body>
-
 <script src="./assets/script.js"></script>
+<script src="./assets/results.js"></script>
+
 
 </html>
