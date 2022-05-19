@@ -12,13 +12,18 @@ The One Wiki is a group project that allows the user see the wiki's of developer
  AREAS OF RESPONSIBILITY
 
  David Deitz - CSS
+
  Nate Labine - JavaScript
+
  Ivan Goya - JavaScript
+
  Marcus Martinez - GitHub management
+
  Max Shaw - HTML
+
  Bill Hardgrove - Project Management
 
-<img src="./assets/images/group_work.png" alt="Group 2 hard at work on CSS formating" >
+<img src="./assets/images/group_work.png" alt="Group 2 hard at work on CSS formating, not in picture Marcus Martinez" >
 
 
 
