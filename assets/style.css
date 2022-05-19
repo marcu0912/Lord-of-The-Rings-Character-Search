@@ -112,6 +112,17 @@ body {
     margin-bottom: -2rem;
 }
 
+#ring-title2 {
+   
+    background-color: transparent;
+    z-index: 2;
+    position: relative;
+    height: 7rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    margin-bottom: -2rem;
+}
+
 .search-area {
     display: flex;
     flex-direction: column;
@@ -267,6 +278,8 @@ input {
     font-size: 3rem;
     font-weight: 500;
 }
+
+
 
 
 
