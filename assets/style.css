@@ -23,6 +23,11 @@ body {
     border-bottom: 10px ridge grey;
 }
 
+#racelist {
+    border: 10px gray;
+    
+}
+
 
 .title {
     text-align: center;
@@ -43,8 +48,7 @@ body {
     margin-top: -9rem;
     background-image: url(https://wallpaperaccess.com/full/815670.jpg);
     box-shadow: 4px 4px 4px #333333;
-    position: relative;
-   
+    position: relative; 
 }
 
 
@@ -93,7 +97,6 @@ body {
 }
 
 #ring-title {
-   
     background-color: transparent;
     z-index: 2;
     position: relative;
@@ -187,7 +190,7 @@ body {
 label {
     font-size: 4rem;
     color: black;
-  margin-top: -0.3rem;
+    margin-top: -0.3rem;
 }
 
 input {
@@ -206,20 +209,20 @@ input {
 
 @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
     }
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px #ff4da6, 0 0 70px blue, 0 0 80px blue;
+    text-shadow: 0 0 20px #fff, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px #ff4da6, 0 0 70px blue, 0 0 80px blue;
     }
-  }
+}
 
 
-  @media screen and (max-width: 800px) {
-      .container {
-          flex-direction: column;
-      }
+@media screen and (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
 
-      .main {
-          flex-direction: column;
-      }
-  }
+    .main {
+        flex-direction: column;
+    }
+}

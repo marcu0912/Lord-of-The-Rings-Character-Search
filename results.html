@@ -13,29 +13,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
     <!--Internal elvish font-->
     <link rel="stylesheet" href="./elvish_ring/stylesheet.css"> 
-
+    <link rel="stylesheet" href="./results.html">
+    <link rel="stylesheet" href="./assets/results.css">
 </head>
 
-<body>
+<body style="font-family: Bilbo;">
     <div class="hero">
+    
         <div id = "HomeButton">
-
+            <object id="title">
             <a href="index.html">
+            
             <img src = "./assets/images/hobbit-hole.png" height="160px" height ="100px" >
             </a>
-    
+            <div id="hometxt" href="index.html">
+                <h4>Home</h4>
+            </div>
+            </object>
         </div>
-
-    </div>
-
-
-    <div class="">
-        <h1>The One Wiki</h1>
+       
+        <div id="resultstitle">
+            <h1>The One Wiki</h1>
+        </div>
     </div>
     <div>
         <button onclick="">Discover Characters!</button>
     </div>
-    <div>
+
+    <div id="racelist">
+
         <form action="./results.html">
             <input type="checkbox" id="male" name="male" value="male">
             <label for="male">Male</label><br>
@@ -54,6 +60,7 @@
     </div>
     <!--Featured Randomized Characters  -->
     <div class="characters">
+        <object id="second">
         <div class="">
             <h3>Character</h3>
             <img src="" alt="Picture of Legolas" />
@@ -75,6 +82,7 @@
                 Info of random characters
             </p>
         </div>
+        </object>
     </div>
 
     <div class="">

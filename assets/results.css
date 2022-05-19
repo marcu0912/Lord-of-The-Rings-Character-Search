@@ -1,3 +1,40 @@
-#HomeButton {
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 
+#resultstitle {
+    background-image: url(./images/815670.jpg);
+    margin-left: 2px;
+    text-align: center;
+    width: 50%;
+    border: 10px solid black;
+    padding: 10px;
+    position: relative;
+    left: 450px;
+    bottom: 350px;
+}
+
+#racelist {
+    border: 3px solid black;
+    position: relative;
+    right: 500;
+}
+
+
+#title {
+    position: relative;
+}
+
+#second {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: 10px;
+}
+
+#hometxt {
+    position: relative;
+    left: 90px;
+    top: -230px;
+    color: white;
+    font-size: 80px;
 }
