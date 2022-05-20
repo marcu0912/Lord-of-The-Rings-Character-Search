@@ -328,6 +328,30 @@ input[type='submit'] {
     font-weight: 500;
 }
 
+.quotes {
+    font-size: 5.5rem;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px #333333;
+    text-align: center;
+    margin-top: 2rem;
+    background-image: url(./images/formback.jpg);
+    background-size: cover;
+    padding-top: 6rem;
+
+}
+
+#oldQuotes {
+    font-size: 5.5rem;
+    color: #fff;
+}
+
+.newBack {
+    background-image: url(./images/olive-green-stone-slate-background.jpg);
+    background-size:auto;
+}
+
 
 
 
