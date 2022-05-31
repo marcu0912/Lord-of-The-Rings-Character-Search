@@ -1,4 +1,4 @@
-# Project-1
+# Lord of The Rings Character Search
 
 "The One Wiki" is a group project that allows the user see the wiki's of developer selected popular LOTR characters. It also allows them to research further by selecting gender and race to discover new characters and link to the characters wiki.
  
